@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L4io5rlLDhQE8B443020HXBsREhc9+3iSVo/UVMz5tjsHr1cGO+FSdnU4PS0shFyOM7vPIDTMOLRAKM+H3rl4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\iianc\\Desktop\\ichoosr2\\WebApi\\ConsoleApp\\ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iianc\\.nuget\\packages\\csvhelper\\28.0.0\\csvhelper.28.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

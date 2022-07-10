@@ -1,0 +1,84 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div>
+    <button id="btn" class="btn btn-outline-dark">clickmeh</button>
+</div>
+
+<hr />
+
+<h1>Security cameras Utrecht</h1>
+<div id="map"></div>
+<div id="source">
+source:
+<a target="_blank" href="https://data.overheid.nl/dataset/camera-s">https://data.overheid.nl/dataset/camera-s</a>
+</div>
+
+<table id="cameraTableContainer">
+    <tbody>
+    <tr>
+        <td>
+        <table id="column3" class="table table-hover">
+            <thead>
+                <tr>
+                    <th colspan="4">Cameras 3</th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                </thead>
+            <tbody id="column3Body">
+
+            </tbody>
+        </table>
+        </td>
+        <td>
+        <table id="column5" class="table table-hover">
+            <thead>
+            <tr>
+                <th colspan="4">Cameras 5</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+            </tr>
+            </thead>
+            <tbody id="column5Body">
+            </tbody>
+        </table>
+        </td>
+        <td>
+        <table id="column15" class="table table-hover">
+            <thead>
+            <tr>
+                <th colspan="4">Cameras 3 &amp; 5</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+            </tr>
+            </thead>
+            <tbody id="column15Body">
+            </tbody>
+        </table>
+        </td>
+        <td>
+        <table id="columnOther" class="table table-hover">
+            <thead>
+            <tr>
+                <th colspan="4">Cameras Overig</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+            </tr>
+            </thead>
+            <tbody id="columnOtherBody">
+            </tbody>
+        </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
